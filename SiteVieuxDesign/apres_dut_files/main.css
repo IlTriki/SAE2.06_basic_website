@@ -1,0 +1,118 @@
+/* add CSS here */
+.cadre_principal {
+background-color:#eeeeee;
+box-shadow: 4px 4px 4px #222222;
+border:solid 10px white;
+}
+
+body {
+background-color:#555555;
+padding-top: 60px;
+padding-bottom: 40px;
+}
+
+li {
+margin-left:20px;
+}
+.navbar li {
+margin-left:0px;
+}
+
+h1 {
+margin-left:10px;
+color:#96b2ea;
+}
+
+h2 {
+color: #004575;
+background-color: #cccccc;
+border-radius: 5px;
+margin-top: 25px;
+margin-left:15px;
+padding-left:10px;
+padding-right:5%;
+display: table;
+}
+
+h3 {
+margin-left: 20px;
+}
+
+.hero-unit h1 {
+color: #96b2ea;
+background-color: transparent;
+}
+
+.sous_menu {
+background-color: #65a6d1;
+}
+
+.navsous_menu {
+ margin-left: 15px;
+ margin-right: 15px;
+
+}
+
+    
+    .bruh {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #333333;
+        z-index: 9999;
+      }
+      
+      .bruh .brah {
+        display: flex;
+        justify-content: center;
+      }
+      
+      .bruh .brah > li {
+        float: none;
+        display: inline-block;
+      }
+      
+      .bruh .brah > li > a {
+        color: #999999;
+        padding: 10px;
+      }
+      
+      .bruh .brah > li.active > a,
+      .bruh .brah > li > a:hover {
+        color: white;
+      }
+      
+      .bruh .sub-item > a {
+        color: #999999;
+        text-decoration: none;
+      }
+      
+      .bruh .sub-item > a:hover {
+        color: #FFFFFF;
+      }
+    
+      .bruh .sub-menu {
+        display: none;
+        position: absolute;
+        z-index: 999;
+        background-color: #333333;
+      }
+      
+      .bruh .menu-item:hover > .sub-menu {
+        display: block;
+      }
+      
+      .bruh .sub-menu li {
+        display: block;
+      }
+      
+      .bruh .sub-menu li a {
+        padding: 10px;
+        color: #999999;
+        text-decoration: none;
+      }
+      
+      .bruh .sub-menu li a:hover {
+        color: #FFFFFF;
+      }

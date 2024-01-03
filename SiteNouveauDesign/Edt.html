@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="shortcut icon" type="icone.png" href="icone.png" />
+    <link rel="stylesheet" href="style2.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+      integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <title>Projets étudiants</title>
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo"
+        ><img src="images2.png" class="logo" alt="logo iut"
+      /></a>
+      <div class="navigation">
+        <ul class="menu">
+          <div class="close-btn"></div>
+          <li class="menu-item"><a href="accueil.html">Accueil</a></li>
+          <li class="menu-item"><a class="sub-btn" href="#">Actualités</a></li>
+          <li class="menu-item">
+            <a class="sub-btn" href="Edt.html">Emploi du temps </a>
+          </li>
+          <li class="menu-item">
+            <a href="projets1.html">Projets étudiants<i class="fas fa-angle-down"></i></a>
+            <ul class="sub-menu">
+              <li class="sub-item"><a href="#">1ère année</a></li>
+              <li class="sub-item"><a href="#">2ème année</a></li>
+              <li class="sub-item"><a href="#">3ème année</a></li>
+              <li class="sub-item"><a href="#">Licence professionnelles</a></li>
+            </ul>
+          </li>
+          <li class="menu-item">
+            <a class="sub-btn" href="#">Après le BUT </a>
+          </li>
+        </ul>
+      </div>
+      <div class="menu-btn"></div>
+    </header>
+    <section class="section-index">
+      <h1>Emploi du temps</h1>
+    </section>
+    <section class="section-article">
+      <form id="login-form">
+        <h2>Connexion</h2>
+
+        <div class="form-group">
+          <label for="username-input">Nom d'utilisateur :</label>
+          <input type="text" id="username" name="username" required />
+        </div>
+
+        <div class="form-group">
+          <label for="password-input">Mot de passe :</label>
+          <input type="password" id="password" name="password" required />
+        </div>
+
+        <button type="button" id="button">Se connecter</button>
+      </form>
+      <div id="message"></div>
+      <div style="display:flex; justify-content: center;margin-top: 20px;">
+        <iframe id="calendar" src="https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%23ffffff&ctz=Europe%2FParis&showTitle=0&showNav=1&showDate=0&showPrint=0&showTabs=0&showCalendars=0&showTz=0&mode=WEEK&src=c3Z2bmI3YnJzcnZ1aHAyNjJuNzBlMmlzYWw1bTB0amdAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%239E69AF" style="border:solid 1px #777" width="1500rem" height="1000rem" title="calendar"></iframe>    
+      </div>
+    </section>
+    <script type="text/javascript" src='script2.js'></script>
+  </body>
+</html>

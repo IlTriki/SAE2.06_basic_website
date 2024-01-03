@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="shortcut icon" type="icone.png" href="icone.png" />
+    <link rel="stylesheet" href="style3.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+      integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <title>Projets étudiants</title>
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo"
+        ><img src="images2.png" class="logo" alt="logo iut"
+      /></a>
+      <div class="navigation">
+        <ul class="menu">
+          <div class="close-btn"></div>
+          <li class="menu-item"><a href="accueil.html">Accueil</a></li>
+          <li class="menu-item"><a class="sub-btn" href="#">Actualités</a></li>
+          <li class="menu-item">
+            <a class="sub-btn" href="Edt.html">Emploi du temps </a>
+          </li>
+          <li class="menu-item">
+            <a href="projets1.html">Projets étudiants<i class="fas fa-angle-down"></i></a>
+            <ul class="sub-menu">
+              <li class="sub-item"><a href="#">1ère année</a></li>
+              <li class="sub-item"><a href="#">2ème année</a></li>
+              <li class="sub-item"><a href="#">3ème année</a></li>
+              <li class="sub-item"><a href="#">Passerelle</a></li>
+            </ul>
+          </li>
+          <li class="menu-item">
+            <a class="sub-btn" href="#">Après le BUT </a>
+          </li>
+        </ul>
+      </div>
+      <div class="menu-btn"></div>
+    </header>
+    <section class="section-index">
+      <h1 id="message"></h1>
+    </section>
+    <section class="section-article">
+      <div class="departements">
+        <a href="javascript:void(0)" class="annee1">1ère année</a>
+        <a href="javascript:void(0)" class="annee2">2ème année</a>
+        <a href="javascript:void(0)" class="annee3">3ème année</a>
+        <a href="javascript:void(0)" class="LP">Passerelle</a>
+      </div>
+      <div class="articleee">
+        <div class="article_1A">
+          <div class="masteriy">
+            <div id="bouton">
+              <button class="shaco" onclick="filtreObjets('all')">Aucun filtre</button>
+              <button class="shaco" onclick="filtreObjets('Dev_Web')">Dev WEB</button>
+              <button class="shaco" onclick="filtreObjets('Base_de_données')">Base de
+                données</button>
+              <button class="shaco" onclick="filtreObjets('Init_Dev')">Init Dev</button>
+              <button class="shaco" onclick="filtreObjets('Init_Systems')">Init
+                Systems</button>
+              <button class="shaco" onclick="filtreObjets('Math')">Math</button>
+              <button class="shaco" onclick="filtreObjets('Dev_obj')">Dev Objet</button>
+              <button class="shaco" onclick="filtreObjets('IHM')">IHM</button>
+              <button class="shaco" onclick="filtreObjets('Assembleur')">Assembleur</button>
+            </div>
+            <div class="objets">
+              <a href="101.html" class="article Init_Dev">
+                <div class="article-thumbnail">
+                  <img src="devweb.jpg" alt="Image de l'article">
+                  <h3>SAE 1.01</h3>
+                  <p>
+                    X est un jeu à deux joueurs sur un plateau L lignes, C colonnes. Les joueurs placent des jetons pour gagner en sommant les valeurs autour de la dernière case vide. Le programme permet de saisir les noms, gérer les parties multiples et personnaliser l'affichage.</p>
+                </div>
+              </a>
+              <a href="102.html" class="article Init_Dev Math">
+                <div class="article-thumbnail">
+                  <img src="C.jpg" alt="Image de l'article">
+                  <h3>SAE 1.02</h3>
+                  <p>
+                    SAE 1.02 : Programme en C pour jouer au jeu de Nim contre l'ordinateur, avec personnalisation des paramètres et différents niveaux de difficulté. Le but est de déplacer un pion vers une case de puits. Le programme détermine le vainqueur à la fin.</p>
+                </div>
+              </a>
+              <a href="103.html" class="article Init_Systems">
+                <div class="article-thumbnail">
+                  <img src="systeme.png" alt="Image de l'article">
+                  <h3>SAE 1.03</h3>
+                  <p>
+                    La SAE 1.03 utilise les fichiers de journaux d'un serveur Apache pour générer des statistiques sur les connexions et les erreurs des utilisateurs du site web.</p>
+                </div>
+              </a>
+              <a href="104.html" class="article Base_de_données">
+              <div class="article-thumbnail">
+                <img src="BDD.jpg" alt="Image de l'article">
+                <h3>SAE 1.04</h3>
+                <p>La SAE 1.04 permet d'analyser le besoin d'une coopérative agricole qui souhaite disposer d'une application pour l'aider dans la gestion de son activité de vente des céréales produites par les adhérents de cette coopérative, puis de déduire le schéma de la base de données permettant de répondre aux besoins exprimés.</p>
+              </div></a>
+              <a href="105.html" class="article Dev_Web">
+                <div class="article-thumbnail">
+                  <img src="last.png" alt="Image de l'article">
+                  <h3>SAE 1.05</h3>
+                  <p>Les étudiants travaillent en équipe sur un projet professionnel consistant à créer un site web pour un client, en se concentrant sur une décennie spécifique. Ils interviewent le client, créent une maquette, préparent une présentation orale et livrent un rapport écrit, une maquette et un diaporama.</p>
+                </div>
+              </a>
+              <a href="201.html" class="article IHM">
+                <div class="article-thumbnail">
+                  <img src="BDDDEV.png" alt="Image de l'article">
+                  <h3>SAE 2.01 </h3>
+                  <p>
+                    La SAE_2.01 est une application pour gérer les infractions routières, permettant d'afficher, modifier, supprimer et ajouter des informations telles que le numéro d'infraction, la date, le numéro d'immatriculation du véhicule, le numéro de permis et l'identité du conducteur, ainsi que le montant de l'amende.</p>
+                </div>
+              </a>
+              <a href="203.html" class="article Assembleur">
+                <div class="article-thumbnail">
+                  <img src="assembleur.png" alt="Image de l'article">
+                  <h3>SAE 2.03</h3>
+                  <p>La SAE 2.03 vise à développer une horloge en langage d'assemblage Intel capable d'afficher l'heure sous une forme numérique. L'objectif principal de ce projet est de créer un programme qui permettra de lire l'heure à partir d'une source fiable et de l'afficher de manière claire et précise. L'horloge devra être capable de suivre l'heure en temps réel, en tenant compte des variations et des mises à jour nécessaires</p>
+                </div>
+              </a>
+              <a href="204.html" class="article Base_de_données">
+                <div class="article-thumbnail">
+                  <img src="BDD2.png" alt="Image de l'article">
+                  <h3>SAE 2.04</h3>
+                  <p>La SAE S2.04 suit le même principe que la SAE 1.04 en unifiant les descriptions des schémas de bases de données. Mais cette fois, on ajoute une nouvelle étape : traiter les extractions Excel et les requêtes d'interrogation avancée. L'objectif est de rendre les schémas de bases de données cohérents, ajuster les jeux d'essai et développer des fonctionnalités pour extraire des données à partir de fichiers Excel et effectuer des recherches plus avancées.</p>
+                </div>
+              </a>
+              <a href="205.html" class="article Dev_Web">
+                <div class="article-thumbnail">
+                  <img src="eza.png" alt="Image de l'article">
+                  <h3>SAE 2.05</h3>
+                  <p>
+                    La SAE 2.05 veut créer un site web pour présenter les projets des étudiants de 1ère et 2ème année du BUT Informatique à Metz. Le site permettra aux projets d'être consultés et appréciés, mettant ainsi en valeur les compétences et les réalisations des étudiants. Le but est d'offrir une visibilité et une reconnaissance aux travaux des étudiants.</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="article_2A">
+          <div class="masteriy">
+            <div id="bouton">
+              <button class="shaco" onclick="filtreObjets('all')">Aucun filtre</button>
+              <button class="shaco" onclick="filtreObjets('Dev_Web')">Dev WEB</button>
+              <button class="shaco" onclick="filtreObjets('Base_de_données')">Base de
+                données</button>
+              <button class="shaco" onclick="filtreObjets('Init_Dev')">Init Dev</button>
+              <button class="shaco" onclick="filtreObjets('Init_Systems')">Init
+                Systems</button>
+              <button class="shaco" onclick="filtreObjets('Economie')">Economie</button>
+            </div>
+            <div class="objets">
+              <a href="dev_web2A.html" class="article Dev_Web">
+                <div class="article-thumbnail">
+                  <img src="devweb.jpg" alt="Image de l'article">
+                  <h3>Projet Informatique développement web </h3>
+                  <p>Un projet de développement web consiste à créer et à développer une application web en utilisant différents langages de programmation, outils et technologies web. </p>
+                </div>
+              </a>
+              <a href="bdd2A.html" class="article Base_de_données">
+                <div class="article-thumbnail">
+                  <img src="BDD2.png" alt="Image de l'article">
+                  <h3>Projet Informatique base de données </h3>
+                  <p>Un projet de base de données consiste à concevoir, créer et maintenir une structure de stockage et de gestion de données efficace et organisée. </p>
+                </div>
+              </a>
+              <a href="init_dev2A.html" class="article Init_Dev">
+                <div class="article-thumbnail">
+                  <img src="initdev.jpeg" alt="Image de l'article">
+                  <h3>Projet Informatique Initiation developpement</h3>
+                  <p>Le projet d'initiation au développement vise à introduire les étudiants aux concepts de base du développement de logiciels, en leur apprenant les fondamentaux de la programmation et en les aidant à développer des compétences pratiques dans la création d'applications simples.</p>
+                </div>
+              </a>
+              <a href="init_sys2A.html" class="article Init_Systems">
+              <div class="article-thumbnail">
+                <img src="systeme.png" alt="Image de l'article">
+                <h3>Projet Informatique initiation système</h3>
+                <p>Le projet d'initiation système est un programme conçu pour aider les débutants à comprendre les concepts de base des systèmes d'exploitation, tels que la gestion des fichiers, la sécurité et la configuration.</p>
+              </div></a>
+              <a href="eco2A.html" class="article Economie">
+                <div class="article-thumbnail">
+                  <img src="eco.png" alt="Image de l'article">
+                  <h3>Projet Informatique Economie </h3>
+                  <p>Le projet consiste à créer une application informatique pour aider les étudiants en économie à mieux gérer leur budget et leurs dépenses. Cette application permettra aux utilisateurs de suivre leurs finances en temps réel et de recevoir des conseils financiers personnalisés.</p>
+                </div>
+              </a>
+              <a href="initdev_devweb2A.html" class="article Init_Dev Dev_Web">
+                <div class="article-thumbnail">
+                  <img src="last.png" alt="Image de l'article">
+                  <h3>Projet Informatique Initiation developpement et développement web </h3>
+                  <p>Le projet consiste à initier les apprenants aux bases du développement web, en leur apprenant les langages HTML, CSS et JavaScript, et à les guider dans la création d'un petit site web fonctionnel. </p>
+                </div>
+              </a>
+            </div>
+        </div>
+        <div class="article_3A">
+          <p>
+            pas encore de 3ème année
+          </p>
+        </div>
+        <div class="article_LP">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+            voluptatum officiis soluta hic aspernatur, nihil dolores? Tempora
+            ex, magni aperiam architecto eveniet ad est dolorum, illum tenetur
+            similique, nesciunt necessitatibus.
+          </p>
+        </div>
+      </div>
+    </section>
+    <script type="text/javascript" src="script3.js"></script>
+  </body>
+</html>
